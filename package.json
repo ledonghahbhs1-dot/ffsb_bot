@@ -1,0 +1,16 @@
+{
+  "name": "telegram-account-generator-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot tạo tài khoản ngẫu nhiên và encode base64",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
